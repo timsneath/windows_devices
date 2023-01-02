@@ -9,7 +9,7 @@
 import 'dart:ffi';
 
 import 'package:ffi/ffi.dart';
-import 'package:win32/winrt.dart' hide IBatteryReport;
+import 'package:win32/winrt.dart';
 
 import 'ibatteryreport.dart';
 

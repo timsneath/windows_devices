@@ -11,6 +11,9 @@ import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 import 'package:win32/winrt.dart';
 
+import 'enums.g.dart';
+import 'ipedometerreading.dart';
+
 /// Provides an interface for a pedometer to measure the number of steps
 /// taken.
 ///

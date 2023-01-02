@@ -11,6 +11,9 @@ import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 import 'package:win32/winrt.dart';
 
+import 'enums.g.dart';
+import 'idevicepickerfilter.dart';
+
 /// Represents the filter used to determine which devices to show in the
 /// device picker. The filter parameters are OR-ed together to build the
 /// resulting filter.

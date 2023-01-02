@@ -10,7 +10,7 @@ import 'dart:ffi';
 
 import 'package:ffi/ffi.dart';
 
-import 'package:win32/winrt.dart' hide PedometerReading, PedometerStepKind;
+import 'package:win32/winrt.dart';
 
 import 'enums.g.dart';
 

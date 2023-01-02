@@ -9,6 +9,9 @@ import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 import 'package:win32/winrt.dart';
 
+import 'devicepickerfilter.dart';
+import 'enums.g.dart';
+
 /// @nodoc
 const IID_IDevicePicker = '{84997aa2-034a-4440-8813-7d0bd479bf5a}';
 

@@ -9,6 +9,10 @@ import 'dart:ffi';
 import 'package:ffi/ffi.dart';
 import 'package:win32/winrt.dart';
 
+import 'devicepickerfilter.dart';
+import 'enums.g.dart';
+import 'idevicepicker.dart';
+
 /// {@category Class}
 /// {@category winrt}
 class DevicePicker extends IInspectable implements IDevicePicker {

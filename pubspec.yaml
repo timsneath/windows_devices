@@ -12,7 +12,7 @@ dependencies:
   ffi: ^2.0.1
   win32: 
     git:
-      url: git@github.com:timsneath/win32.git
+      url: https://github.com/timsneath/win32.git
       ref: v5
 
 dev_dependencies:

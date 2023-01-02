@@ -12,6 +12,9 @@ import 'package:ffi/ffi.dart';
 
 import 'package:win32/winrt.dart';
 
+import 'enums.g.dart';
+import 'pedometerreading.dart';
+
 extension IKeyValuePairPedometerStepKindHelper<K, V> on IKeyValuePair<K, V> {
   PedometerStepKind get keyAsPedometerStepKind {
     final retValuePtr = calloc<Int32>();
