@@ -1,0 +1,20 @@
+name: windows_devices
+description: >
+  This namespace provides access to the low level device providers, including 
+  ADC, GPIO, I2 C, PWM and SPI.
+version: 1.0.0
+publish_to: none # Required to take a dependency on a git branch
+
+environment:
+  sdk: '>=3.0.0-55.0.dev <4.0.0'
+
+dependencies:
+  ffi: ^2.0.1
+  win32: 
+    git:
+      url: git@github.com:timsneath/win32.git
+      ref: v5
+
+dev_dependencies:
+  lints: ^2.0.1
+  test: ^1.22.1
