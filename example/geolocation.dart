@@ -4,6 +4,9 @@
 
 // Retrieve geolocation coordinates via WinRT APIs
 
+import 'package:win32/winrt.dart';
+import 'package:windows_devices/windows_devices.dart';
+
 void main() async {
   winrtInitialize();
 
